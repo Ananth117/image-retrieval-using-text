@@ -1,0 +1,22 @@
+#ignore data folders
+data/
+embeddings/
+models/
+
+# Ignore temporary or cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.npz
+*.npy
+
+
+# Ignore Streamlit or Gradio cache
+.streamlit/
+.gradio/
+
+# Ignore logs or runtime files
+logs/
+*.log
